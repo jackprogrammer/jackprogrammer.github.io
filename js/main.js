@@ -98,15 +98,15 @@ $('.testmonial_active').owlCarousel({
 $( function() {
   $( "#slider-range" ).slider({
       range: true,
-      min: 0,
-      max: 600,
-      values: [ 75, 300 ],
+      min: 1000000,
+      max: 10000000,
+      values: [ 2000000, 5000000 ],
       slide: function( event, ui ) {
-          $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+          $( "#amount" ).val( "VND " + ui.values[ 0 ] + " - VND " + ui.values[ 1 ] );
       }
   });
-  $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-      " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+  $( "#amount" ).val( "VND " + $( "#slider-range" ).slider( "values", 0 ) +
+      " - VND " + $( "#slider-range" ).slider( "values", 1 ) );
 } );
 
 
