@@ -1,0 +1,365 @@
+.dmn {
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 97;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+.dmn .hh {
+  height: 88px;
+  position: relative;
+}
+.dmn .l {
+  float: left;
+  width: 189px;
+  height: 88px;
+  background: url(../img/b/logo.jpg) no-repeat left center;
+  background-size: auto 50px;
+}
+.dmn .l a {
+  display: block;
+  height: 88px;
+}
+.dmn .c {
+  float: left;
+  height: 88px;
+}
+.dmn div {
+  display: none;
+  position: absolute;
+  width: 920px;
+  z-index: 98;
+  left: 140px;
+  top: 88px;
+  background-color: #fff;
+  border-bottom: solid 1px #e3e3e3;
+  box-shadow: 0 0 3px #88bfe5;
+  padding-top: 10px;
+}
+.dmn .c:hover .t {
+  display: inline;
+  position: absolute;
+  z-index: 100;
+}
+.dmn .a1 {
+  display: block;
+  text-decoration: none;
+  height: 88px;
+  line-height: 88px;
+  padding: 0px 6px;
+  white-space: nowrap;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.dmn .c:hover .a1,
+.dmn .s .a1 {
+  color: #f37021;
+}
+.dmn .m {
+  float: left;
+  height: 36px;
+  overflow: hidden;
+  border-bottom: #c1b69b 1px dotted;
+  width: 180px;
+  margin: 0px 10px;
+  background: url(../img/bg/ic1.gif) no-repeat left center;
+}
+.dmn .m a {
+  display: block;
+  line-height: 36px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+.dmn .cl {
+  height: 15px;
+}
+.dmn .r {
+  position: absolute;
+  z-index: 1;
+  top: 28px;
+  right: 0px;
+  padding: 0px 6px 0px 26px;
+  background: #f37021 url(../img/b/t.png) no-repeat 6px center;
+  color: #fff;
+  line-height: 32px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.fb {
+  padding: 30px 0px;
+  background-color: #08286b;
+  color: #fff;
+}
+.fc {
+  overflow: hidden;
+  position: relative;
+  min-height: 240px;
+}
+.fb a {
+  color: #fff;
+}
+.fn {
+  width: 300px;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+}
+.fl {
+  float: left;
+  width: 380px;
+  padding-right: 20px;
+}
+.fd {
+  width: 295px;
+  float: right;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.fc .tt {
+  height: 26px;
+  overflow: hidden;
+  display: block;
+  font-size: 17px;
+  margin-bottom: 5px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+.fb .ff {
+  width: 42px;
+  height: 2px;
+  display: block;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.fg {
+  float: left;
+  overflow: hidden;
+}
+.fh {
+  float: left;
+  width: 268px;
+}
+.fh .f {
+  padding-bottom: 10px;
+  background: url(../img/bg/z.png) no-repeat left 5px;
+  padding-left: 10px;
+}
+.bct {
+  position: absolute;
+  z-index: 1;
+  width: 160px;
+  height: 60px;
+  background: url(../img/b/bct.png) no-repeat left top;
+  top: 180px;
+  left: 400px;
+}
+.dmca {
+  position: absolute;
+  z-index: 1;
+  width: 106px;
+  height: 38px;
+  background: url(../img/b/dmca.png) no-repeat left top;
+  top: 191px;
+  left: 580px;
+}
+.dmca a {
+  display: block;
+  height: 38px;
+}
+
+.fm {
+  line-height: 40px;
+  color: #fff;
+  text-align: center;
+  background-color: #141d3a;
+}
+
+.dl {
+  float: left;
+  width: 260px;
+  overflow: hidden;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.dl ul {
+  margin-bottom: 15px;
+}
+.dl .m {
+  background-color: #fff;
+  border: solid 1px #ededed;
+}
+.dl .h {
+  line-height: 40px;
+  height: 40px;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+  padding-left: 18px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #f37021;
+  text-transform: uppercase;
+}
+.dl .h.z {
+  background-color: #f37021;
+}
+.dl .h a {
+  color: #fff;
+}
+.dl .c {
+  line-height: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+.dl .c.b {
+  border-top: dotted 1px #ddd;
+}
+.dl .c a {
+  display: block;
+  padding-left: 22px;
+  font-weight: 500;
+  background: url(../img/bg/ig.gif) no-repeat 10px center;
+  text-decoration: none;
+}
+.dl .c a:hover,
+.dl .c.s a {
+  background-color: #f2f2f2;
+}
+.dl .f {
+  padding-bottom: 8px;
+  padding-left: 30px;
+  font-size: 13px;
+  background-color: #f2f2f2;
+}
+.dl .s a {
+  color: #f05a28;
+}
+
+.dl .d {
+  background-color: #f7f7f7;
+}
+.dl .y {
+  height: 47px;
+  overflow: hidden;
+  padding: 15px;
+  background-color: #f7f7f7;
+}
+.dl .y.e {
+  background-color: #f1f1f1;
+}
+.dl .y img {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: solid 1px #ccc;
+}
+.dl .y span {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: #874143;
+  font-size: 15px;
+  padding-top: 5px;
+}
+.dl .y strong {
+  display: block;
+  font-size: 15px;
+  color: #ff0000;
+}
+
+.dl .e {
+  border-bottom: #ededed 1px solid;
+}
+.dl .a {
+  border-bottom: #ededed 1px solid;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.dl .a img {
+  display: block;
+  width: 260px;
+  height: 173px;
+  margin-bottom: 5px;
+}
+.dl .a strong {
+  display: block;
+  line-height: 16px;
+  max-height: 32px;
+  overflow: hidden;
+  font-size: 13px;
+}
+.dl span {
+  display: block;
+  line-height: 16px;
+  max-height: 48px;
+  color: #666;
+  text-align: justify;
+  overflow: hidden;
+  padding-top: 5px;
+  font-size: 12px;
+}
+.dl .b {
+  border-bottom: #ededed 1px solid;
+  padding: 6px 0px;
+}
+.dl .b img {
+  display: none;
+}
+.dl .b strong {
+  display: block;
+  padding: 5px 0px;
+  font-weight: 500;
+}
+
+.dl .k {
+  background-color: #f5f5f5;
+  padding: 10px;
+  overflow: hidden;
+}
+.dl .g {
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.dl .v {
+  padding-bottom: 10px;
+}
+.dl .v img {
+  width: 260px;
+}
+
+.ms {
+  left: 10px;
+  bottom: 0px;
+  position: fixed;
+  z-index: 998;
+}
+.ms li {
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.ms a {
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+.ms .h {
+  background: url(../img/mb/fb.png) no-repeat left top;
+}
+.ms .c {
+  background: url(../img/mb/zl.png) no-repeat left top;
+}
