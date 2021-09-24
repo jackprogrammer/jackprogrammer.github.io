@@ -1,0 +1,208 @@
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.owl-theme .owl-controls .owl-pagination {
+  margin-top: 0;
+  bottom: 10px;
+  left: 48%;
+  position: absolute;
+}
+.owl-theme .owl-controls .owl-page span {
+  background: #fff !important;
+  border: solid 1px #111;
+}
+.owl-theme .owl-controls .owl-page.active span {
+  background: #fcc806 !important;
+  border: solid 1px #fff;
+}
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+#owl-demo img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#as1 {
+  height: 398px;
+}
+#as1 .owl-prev {
+  background: url(../img/b/il.png) no-repeat left top;
+}
+#as1 .owl-next {
+  background: url(../img/b/ir.png) no-repeat left top;
+}
+#as1 .owl-prev,
+#as1 .owl-next {
+  top: 120px;
+  width: 18px;
+  height: 30px;
+}
+#as1 .owl-prev {
+  left: 100px;
+}
+#as1 .owl-next {
+  right: 100px;
+}
+#as1 .c {
+  width: 498px;
+  text-align: center;
+}
+#as1 .c img {
+  width: 175px;
+  height: 175px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: solid 2px #fff;
+  margin-top: 40px;
+}
+#as1 .c strong {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 18px;
+}
+#as1 .c b {
+  display: block;
+  width: 56px;
+  height: 2px;
+  background-color: #5777aa;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+#as1 .c span {
+  display: block;
+  padding: 0px 30px;
+  line-height: 22px;
+  height: 88px;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+#skh .owl-prev,
+#skh .owl-next {
+  top: 0px;
+  opacity: 1;
+  width: 10px;
+  height: 130px;
+}
+#skh .owl-prev {
+  background: url(../img/b/il.png) no-repeat left center;
+  background-size: 10px auto;
+}
+#skh .owl-next {
+  background: url(../img/b/ir.png) no-repeat right center;
+  background-size: 10px auto;
+}
+#skh .owl-prev {
+  left: 15px;
+}
+#skh .owl-next {
+  right: 15px;
+}
+#skh {
+  text-align: center;
+  font-size: 12px;
+}
+#skh img {
+  width: 118px;
+  height: 118px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: solid 3px #fff;
+  margin-top: 10px;
+}
+#skh strong {
+  display: block;
+  line-height: 20px;
+  height: 20px;
+  overflow: hidden;
+  padding-top: 8px;
+  margin-bottom: 3px;
+}
+#skh b {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #5777aa;
+  margin-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#skh span {
+  display: block;
+  line-height: 15px;
+  height: 45px;
+  overflow: hidden;
+}
